@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFEFE8;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+section {
+    margin-block-end: 20px;
+}
+
+.naranja {
+    background-color: #FF621F;
+}
+
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+} 
+
+p {
+    font-family: 'Akshar', sans-serif;
+    font-size: 16px;
+}
+
+.media {
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.media .media-body {
+    padding: 50px;
+    margin: 40px;
+    display: block;
+}
+
+
+.map-container h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 70px;
+    font-size: 60px;
+}
+
+.map-container h2 {
+    margin: 70px;
+    font-size: 20px;
+}
+
+.map-container p {
+    margin: 70px;
+    font-size: 15px;
+}
+
+.sucursales {
+    margin: 50px;
+    padding: 20px;
+}
+
+.map-container {
+    overflow:hidden;
+    padding: bottom 50px;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe{
+    padding: 60px;
+    margin: 10px;
+    left: 650px;
+    top: 35px;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+.header {
+    color: #FF621F;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #FF621F;
+}
+
+.footer {
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor {
+    padding: 50px;
+}
+
+.container {
+    margin: 60px;
+}
+
+.d-grid .gap-2 .col-6 .mx-auto {
+    color: #FF621F !important;
+}
+.contenedor .row .imagen {
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedor .row .imagen .texto {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.container .col-sm-12 .row .flex-lg-row-reverse .align-items-center .g-5 .py-5 .col-10 .col-ms-8 .col-xxl-5 img{
+    animation: move-vector 4s linear infinite;
+}
+
+@keyframes move-vector {
+    0% {
+        transform: translateY(15px);
+    }
+}
